@@ -1,0 +1,138 @@
+html {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    }
+
+.container{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  @media (min-width: 768px) {
+    .container{
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .container{
+        max-width: 970px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container{
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  header{
+    background: linear-gradient(#3E1305, #8A2811);
+  }
+
+  @media (min-width: 768px) {
+    header{
+        background:url(../images/blog.jpg) 100% 100% no-repeat;
+        background-position:right bottom ;
+        padding-top:100px;
+        background-size:cover;
+    }
+  }
+
+  @media (min-width: 992px) {
+    header{
+        padding-top:150px;
+        padding-bottom:50px;
+    }
+  }
+
+  h1{
+    font-weight: 300;
+    font-size: 300%;
+    }
+
+    @media (min-width: 768px) {
+        h1{
+            font-size:500%;
+        }
+        }
+    
+    .tagline{
+        font-weight:300;
+    }
+    @media (min-width: 768px) {
+        .tagline{
+            font-size:150%;
+            width: 50%;
+            font:bold;
+        }
+        }
+
+        img{
+            height:220px;
+            width: 170px;
+            float: left;
+            margin-right:10px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: flex; 
+            padding-top:10px;
+        }
+
+
+        li .feature-descr {
+            flex-grow: 1; 
+            padding-left: 10px;
+        }
+
+        @media (min-width: 768px) {
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            li{
+                flex-basis: 50%;
+            }
+        }
+
+        @media (min-width: 992px) {
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            li{
+                flex-basis: 33%;
+            }
+        }
+
+        footer{
+            background-color: #3E1305;
+            color: white;
+            fill: white;
+            margin-top:20px;
+            padding: 10px;
+        }
+
+        button{
+            margin-left: 180px;
+            margin-top: 20px;
+        }

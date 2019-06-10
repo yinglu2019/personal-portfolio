@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/blogstyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Blog</h1>
+            <p class='tagline'>This is my story, my life, my passion I want to share with the world!</p>
+        </div>
+    </header>
+
+    <main>
+            <button class="button" type="button" onclick="window.location.href='file:///C:/Users/hiyan/Documents/GitHub/personal-portfolio/index.html'">Back to homepage</button>
+        <div class="container">
+            <ul class="features">
+                <li>
+                    <div class="feature-descr">
+                        <h2>Sanya trip</h2>
+                        <p>
+                        <img src="images/blogpic1.jpg" alt="blog1">
+                        </p>
+                    <div style="overflow: scroll; width:170px; height:220px;">
+                        <p>“Please be a traveler, not a tourist. Try new things, meet new people, and look beyond what’s right in front of you. Those are the keys to understanding this amazing world we live in.” by Andrew Zimmern. Morning,Sanya!
+                        </p>
+                    </div>
+                        <p>(Date: <span id="datetime"></span>)</p>
+                        <script>
+                        var dt = new Date();
+                        document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+                        </script>
+                    </div>
+                </li>
+                <li>
+                    <div class="feature-descr">
+                        <h2>Vancouver trip</h2>
+                        <p>
+                            <img src="images/blogpic2.jpg" alt="blog2">
+                        </p>
+                    <div style="overflow: scroll; width:170px; height:220px;">
+                        <p>A great day in Vancouver. “Travel brings power and love back into your life.” by Rumi.</p>
+                    </div>
+                        <p>(Date: <span id="datetime2"></span>)</p>
+                        <script>
+                        var dt2 = new Date();
+                        document.getElementById("datetime2").innerHTML = dt2.toLocaleDateString();
+                        </script>
+                    </div>
+                </li>
+                <li>
+                    <div class="feature-descr">
+                        <h2>hardwork</h2>
+                        <p>
+                            <img src="images/blogpic3.jpg" alt="blog3">
+                        </p>
+                    <div style="overflow: scroll; width:170px; height:220px;">
+                        <p>“Don't ever let someone tell you, you can't do something. Not even me. You got a dream, you got to protect it. People can’t do something themselves, they want to tell you you can’t do it. You want something, go get it.”</p>
+                    </div>
+                        <p>(Date: <span id="datetime3"></span>)</p>
+                        <script>
+                        var dt3 = new Date();
+                        document.getElementById("datetime3").innerHTML = dt3.toLocaleDateString();
+                        </script>
+                    </div>
+                </li>
+                <li>
+                    <div class="feature-descr">
+                        <h2>Baking makes me happy</h2>
+                        <p>
+                            <img src="images/blogpic4.jpg" alt="blog4">
+                        </p>
+                    <div style="overflow: scroll; width:170px; height:220px;">
+                        <p>Homemade desserts warm my afternoon.</p>
+                    </div>
+                        <p>(Date: <span id="datetime4"></span>)</p>
+                        <script>
+                        var dt4 = new Date();
+                        document.getElementById("datetime4").innerHTML = dt4.toLocaleDateString();
+                        </script>
+                    </div>
+                </li>
+                <li>
+                    <div class="feature-descr">
+                        <h2>MS tree house</h2>
+                        <p>
+                            <img src="images/blogpic5.jpg" alt="blog5">
+                        </p>  
+                    <div style="overflow: scroll; width:170px; height:220px;">
+                        <p>It was fun to visit the tree house in microsoft.</p>
+                    </div>
+                        <p>(Date: <span id="datetime5"></span>)</p>
+                        <script>
+                        var dt5 = new Date();
+                        document.getElementById("datetime5").innerHTML = dt5.toLocaleDateString();
+                        </script>
+                    </div>
+                </li>
+                <li>
+                    <div class="feature-descr">
+                        <h2>A great movie</h2>
+                        <p>
+                            <img src="images/blogpic6.jpg" alt="blog6">
+                        </p>
+                    <div style="overflow: scroll; width:170px; height:220px;">
+                        <p>Mission Impossible-Fallout: A great movie with great plot as always.</p>
+                    </div>
+                        <p>(Date: <span id="datetime6"></span>)</p>
+                        <script>
+                        var dt6 = new Date();
+                        document.getElementById("datetime6").innerHTML = dt6.toLocaleDateString();
+                        </script>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Ying Lu 2019</p>
+        </div>
+    </footer>
+</body>
+
+</html>
